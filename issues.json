@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Implement user profile page",
+    "labels": ["frontend", "enhancement"],
+    "body": "Create a responsive user profile page.\n\n## Tasks\n\n- [ ] Design the layout\n- [ ] Display user information\n- [ ] Add profile picture upload\n- [ ] Write tests"
+  },
+  {
+    "title": "Add email notifications",
+    "labels": ["backend", "feature"],
+    "depends_on": ["Implement user profile page"],
+    "body": "Send email notifications for important account events.\n\n## Tasks\n\n- [ ] Configure mail provider\n- [ ] Create notification templates\n- [ ] Send welcome email\n- [ ] Send password reset email"
+  },
+  {
+    "title": "Improve dashboard performance",
+    "labels": ["performance"],
+    "body": "Optimize dashboard loading time.\n\n## Tasks\n\n- [ ] Reduce database queries\n- [ ] Cache frequently accessed data\n- [ ] Lazy load widgets"
+  }
+]
